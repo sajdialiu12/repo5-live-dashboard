@@ -14,8 +14,17 @@ A **real-time Linux terminal dashboard** exposed publicly via ngrok.
 
 ## Usage
 1. Make script executable: `chmod +x run.sh`
-2. Run: `./run.sh`
+2. Run the dashboard: `./run.sh`
 3. Open the URL provided by ngrok in your browser
 
-## Example Screenshot
-
+## Example Terminal Dashboard
+┌─────────────────────────────┐
+│       LIVE DASHBOARD        │
+├─────────────┬───────────────┤
+│ CPU Usage   │ ██████ 45%    │
+│ Memory      │ ███████ 60%   │
+│ Disk        │ ████ 25%      │
+│ Network     │ ↑ 120kb/s ↓ 90kb/s │
+├─────────────┴───────────────┤
+│      ngrok URL: http://0.tcp.ngrok.io:12345   │
+└─────────────────────────────┘
